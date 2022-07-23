@@ -1,6 +1,9 @@
 import * as types from './actionTypes';
 import { TUser } from '../types';
-import { Actions } from './actionCreators';
+import * as creators from './actionCreators';
+import { CreatorsToActions } from './types';
+
+type Actions = CreatorsToActions<typeof creators>;
 
 export type UsersState = {
   users: TUser[];

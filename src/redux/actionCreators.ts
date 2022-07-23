@@ -84,7 +84,7 @@ export const deleteUserError = (error: Error) => {
   };
 };
 
-type LoadUsersStartAction = ReturnType<typeof loadUsersStart>;
+/*type LoadUsersStartAction = ReturnType<typeof loadUsersStart>;
 type LoadUsersSuccessAction = ReturnType<typeof loadUsersSuccess>;
 type LoadUsersErrorAction = ReturnType<typeof loadUsersError>;
 
@@ -124,4 +124,4 @@ export type Actions =
   | LoadUsersActions
   | CreateUserActions
   | UpdateUserActions
-  | DeleteUserActions;
+  | DeleteUserActions;*/
